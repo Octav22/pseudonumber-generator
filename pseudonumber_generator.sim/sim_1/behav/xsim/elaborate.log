@@ -1,0 +1,54 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Testbench_behav xil_defaultlib.Testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'in0' [C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/structural.v:10]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 4 for port 'in2' [C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/structural.v:12]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/Top.v" Line 1. Module Top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/desen.v" Line 1. Module desen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/toggle_ff.v" Line 1. Module toggle_ff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/counter.v" Line 1. Module counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/lut.v" Line 1. Module lut doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/structural.v" Line 1. Module structural doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/mux_structural.v" Line 1. Module mux_structural doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/fsm.v" Line 1. Module fsm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/counter.v" Line 1. Module counter(N=6) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/delay_reg.v" Line 1. Module delay_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/ram.v" Line 1. Module ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/Top.v" Line 1. Module Top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/desen.v" Line 1. Module desen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/toggle_ff.v" Line 1. Module toggle_ff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/counter.v" Line 1. Module counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/lut.v" Line 1. Module lut doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/structural.v" Line 1. Module structural doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/mux_structural.v" Line 1. Module mux_structural doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/fsm.v" Line 1. Module fsm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/counter.v" Line 1. Module counter(N=6) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/delay_reg.v" Line 1. Module delay_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/octav/pseudonumber_generator/pseudonumber_generator.srcs/sources_1/new/ram.v" Line 1. Module ram doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.toggle_ff
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.lut
+Compiling module xil_defaultlib.desen
+Compiling module xil_defaultlib.mux_structural
+Compiling module xil_defaultlib.structural
+Compiling module xil_defaultlib.fsm
+Compiling module xil_defaultlib.counter(N=6)
+Compiling module xil_defaultlib.delay_reg
+Compiling module xil_defaultlib.ram
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.Testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Testbench_behav

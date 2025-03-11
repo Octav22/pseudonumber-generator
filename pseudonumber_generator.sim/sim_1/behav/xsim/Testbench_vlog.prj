@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../pseudonumber_generator.srcs/sources_1/new/Top.v" \
+"../../../../pseudonumber_generator.srcs/sources_1/new/adder.v" \
+"../../../../pseudonumber_generator.srcs/sources_1/new/counter.v" \
+"../../../../pseudonumber_generator.srcs/sources_1/new/delay_reg.v" \
+"../../../../pseudonumber_generator.srcs/sources_1/new/desen.v" \
+"../../../../pseudonumber_generator.srcs/sources_1/new/fsm.v" \
+"../../../../pseudonumber_generator.srcs/sources_1/new/lut.v" \
+"../../../../pseudonumber_generator.srcs/sources_1/new/mux_structural.v" \
+"../../../../pseudonumber_generator.srcs/sources_1/new/ram.v" \
+"../../../../pseudonumber_generator.srcs/sources_1/new/structural.v" \
+"../../../../pseudonumber_generator.srcs/sources_1/new/toggle_ff.v" \
+"../../../../pseudonumber_generator.srcs/sim_1/new/Testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
